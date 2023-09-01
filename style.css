@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap');
+
+body{
+    max-width: 1440px;
+    margin: 0;
+    /* border: 2px solid red; */
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+.title a{
+    font-family: "Roboto";
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+.title{
+    width: 30%;
+}
+.elements{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px; 
+   
+}
+.elements a{
+    padding-right: 20px;
+    font-family: "PT Sans";
+    text-decoration: none;
+    color: black;
+   
+}
+.home{
+    top: 0;
+    width: 100%;
+    /* background-image: url(images/hero-banner.jpg);
+    background-size: cover; */
+}
+.home img{
+    width: 100%;
+    
+}
+.home-text{
+    position: absolute;
+    top: 135px;
+    left: 60px;
+    padding: 30px;
+}
+.home-text h2{
+    color: white;
+    width: 35%;
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: lighter;
+}
+.home-text p{
+    color: white;
+    width: 40%;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: lighter;
+}
+.sub-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub1-h{
+    width: 100;
+    text-align: center;
+}
+.sub1-h h3{
+    font-family: "Roboto";
+}
+.sub1-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+ul{
+    list-style: none;
+    font-family: "Roboto";
+    color: #4E4E4E;
+   
+}
+li{
+    width: 70%;
+}
+
+.sub-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub2-h h3{
+   
+    font-family: "Roboto";
+    font-weight: lighter;
+    color: #4E4E4E;
+    font-size: 30px;
+}
+.sub2-h{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+}
+.sub2-img{
+    width: 90%;
+    /* background-image: url(images/technology.png); */
+}
+.sub2-img img{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.sub2-p{
+    position: relative;
+    bottom: 325px;
+    left:570px;
+    width: 45%;
+}
+.sub2-p p{
+    font-family: "Roboto";
+    width: 90%;
+}
+
+.sub-3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub3-text{
+    width: 45%;
+    /* display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap; */
+}
+.sub3-text h3{
+    font-family: "Roboto";
+    font-size: 40px;
+    margin: 0;
+    width: 90%;
+}
+.sub3-text p{
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 82%;
+}
+.sub3-img{
+    width: 45%;
+}
+.sub3-img img{
+    width: 100%;
+}
+.sub-4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px;
+
+}
+.segment{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    gap: 50px;
+    height: 100%;
+ 
+    
+}
+
+.sub4-txt{
+    width: 100%;
+}
+.sub4-txt p{
+    width: 100%;
+    font-family: "Roboto";
+    font-weight: bolder;
+}
+.sub-4 .grid{
+    width: 30%;
+    border:1px solid #4E4E4E;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 45%;
+}
+.grid .icon{
+    width: 10%;
+
+    display: flex;
+    justify-content: center;
+    background-color: #DADADA;
+    background-size: cover;
+    
+}
+.icon img{
+  width: 50%;
+  padding: 35px;
+}
+
+.grid .text{
+    width: 90%;
+    margin-left: 30px;
+}
+.grid p{
+    font-family: "Roboto";
+    width: 90%;
+    color: black;
+}
+.sub-5{
+    width: 100%;
+    background-color: #DADADA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub5-txt{
+    display: flex;
+    text-align: start;
+    width: 100%;
+    margin-left: 50px;
+}
+.sub5-txt h3{
+    font-family: "Roboto";
+    font-weight: lighter;
+    color: #4E4E4E;
+   margin-left: 50px;
+   font-size: 30px;
+}
+.data{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.data p{
+    width: 60%;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bolder;
+}
+
+table, th, td {
+    border: 2px solid #a7a6a6;
+    border-collapse: collapse;
+    font-family: "Roboto";
+    padding: 10px;
+    
+  }
+  th{
+    color:white;
+  }
+ 
+
+.footer{
+    width: 100%;
+    color: white;
+    background-color: #011533;
+    margin: 0;
+   
+ 
+}
+.ft-content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ftc-1{
+    width: 40%;
+   
+}
+.ftc-1 h3{
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-size: 35px;
+}
+.ftc-1 p{
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 73%;
+}
+.ftc-1 span{
+    font-weight: bolder;
+}
+.ftc-1 .p2{
+    width:60% ;
+} 
+.ftc-2{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+.copyright{
+    background-color: #011533;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.copyright p{
+    color: white;
+    font-family: "Roboto";
+}
+@media screen and (max-width:425px){
+  .navbar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+  }
+  #lic{
+    display: none;
+  }
+   .title {
+    width: 90%;
+    margin: 0;
+   }
+   .title a{
+    font-weight: bolder;
+   }
+   .elements{
+    width: 45%;
+    padding: 0;
+ 
+    
+   }
+   .sub1-list{
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+   }
+   .sub2-img{
+    flex-direction: column-reverse;
+   }
+   .sub-3{
+    flex-direction: column;
+   }
+   .sub3-text{
+    width: 90%;
+   }
+   .sub3-text h3{
+    width: 100%;
+    font-size: 35px;
+   }
+   .sub3-text p{
+    width: 95%;
+   }
+   .sub3-img{
+    width: 90%;
+   }
+    .sub-4 .grid{
+        width: 90%;
+    }
+    .icon img{
+        width: 50%;
+        padding: 40px;
+      }
+      
+    .data{
+        width: 90%;
+    }
+    .data p{
+        width: 90%;
+    }
+    .ft-content{
+        flex-direction: column;
+    }
+    .ftc-1{
+        width: 80%;
+    }
+    .ftc-1 h3{
+        width: 90%;
+    }
+    .ftc-1 p{
+        width: 97%;
+    }
+    .ftc-1 .p2{
+        width: 97%;
+    }
+    .copyright{
+        text-align: center;
+    }
+    
+}
+
+
+
